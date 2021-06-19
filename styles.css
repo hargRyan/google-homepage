@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+ul a, img, button {
+    padding: .5em;
+}
