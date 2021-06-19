@@ -1,15 +1,42 @@
-.header {
+.header, .footer {
     display: flex;
     justify-content: space-between;
 }
 
-.header ul {
+.header ul, .footer ul {
     display: flex;
     list-style-type: none;
     margin-left: 25px;
     margin-right: 25px;
+    align-items: center;
+
 }
 
 ul a, img, button {
     padding: .5em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content img {
+    width: 15%;
+}
+
+.search {
+    display:flex;
+    justify-content: center;
+}
+
+.search-buttons {
+    display:flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.search-buttons button {
+    margin-left: 5px;
+    margin-right: 5px;
 }
