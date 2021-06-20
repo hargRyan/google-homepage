@@ -69,6 +69,10 @@ ul a, img, button {
     border-color: #dfe1e5; 
 } 
 
+.search-bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
 .search-buttons {
     display:flex;
     justify-content: center;
@@ -113,12 +117,8 @@ ul a, img, button {
 #search {
     border: none;
     width: 582px;
-}
-
-#search :active {
     outline: none;
 }
-
 
 #sign-in {
     background: #4385f4;
@@ -142,4 +142,8 @@ ul a, img, button {
     font-size: 14px;
     border: 1px solid;
     border-color: #f2f2f2;
+}
+
+#google-search:hover, #feeling-lucky:hover {
+    border: 1px solid #c8c8c8;
 }
