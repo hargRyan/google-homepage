@@ -49,15 +49,25 @@ ul a, img, button {
     width: 15%;
 }
 
-.search {
+.searchform {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 582px;
+    height: 22px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
     border-bottom-left-radius: 24px;
     padding: 10px;
     border: 1px solid;
-    border-color: #dfe1e5;
-}
+    border-color: #dfe1e5; 
+} 
 
 .search-buttons {
     display:flex;
@@ -99,15 +109,12 @@ ul a, img, button {
     font-size: 14px;
 }
 
-.glass {
-    position:relative;
-    left: 45px;
+
+#search {
+    border: none;
+    width: 582px;
 }
 
-.microphone {
-    position:relative;
-    right: 45px;
-}
 
 #sign-in {
     background: #4385f4;
