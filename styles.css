@@ -50,8 +50,13 @@ ul a, img, button {
 }
 
 .search {
-    display:flex;
-    justify-content: center;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding: 10px;
+    border: 1px solid;
+    border-color: #dfe1e5;
 }
 
 .search-buttons {
@@ -86,17 +91,6 @@ ul a, img, button {
     
 }
 
-.search-bar {
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    padding: 10px;
-    width: 550px;
-    border: 1px solid;
-    border-color: #dfe1e5;
-}
-
 .nav-button {
     float:right;
     margin: 22px 10px;
@@ -107,6 +101,12 @@ ul a, img, button {
 
 .glass {
     position:relative;
+    left: 45px;
+}
+
+.microphone {
+    position:relative;
+    right: 45px;
 }
 
 #sign-in {
