@@ -115,6 +115,10 @@ ul a, img, button {
     width: 582px;
 }
 
+#search :active {
+    outline: none;
+}
+
 
 #sign-in {
     background: #4385f4;
